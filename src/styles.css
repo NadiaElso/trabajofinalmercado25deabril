@@ -1,0 +1,139 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+.nav {
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0 0 10px;
+}
+.nav-lista {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.nav-lista-logo {
+  list-style: none;
+  margin: auto;
+  cursor: pointer;
+  width: 25.5rem;
+  transition: fill 250ms ease-in;
+}
+svg {
+  width: 2.5rem;
+  transition: fill 250ms ease-in;
+}
+.nav-lista-logo:hover :focus {
+  fill: #00ff00;
+}
+.nav-lista-sublista {
+  list-style: none;
+  font-weight: bold;
+  position: relative;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+div > p {
+  background-color: yellow;
+}
+div + h2 {
+  background-color: red;
+}
+p ~ h2 {
+  background-color: orange;
+}
+div > p {
+  background-color: yellow;
+}
+div + h2 {
+  background-color: red;
+}
+p ~ h2 {
+  background-color: orange;
+}
+div {
+  border: solid;
+}
+.boton:hover {
+  background-color: red;
+}
+* {
+  color: red !important;
+}
+p {
+  color: blue;
+}
+p {
+  color: blue;
+}
+#unico {
+  color: red;
+}
+.destacada {
+  color: green;
+}
+p.destacada {
+  color: orange;
+}
+p#unico {
+  color: pink;
+}
+p {
+  color: red;
+}
+p {
+  color: blue;
+}
+p,
+.aviso {
+  color: green;
+}
+p.aviso {
+  color: blue;
+}
+p .aviso {
+  color: red;
+}
+p,
+.aviso {
+  color: green;
+}
+#div1 {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+#div2 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+#div3 {
+  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
